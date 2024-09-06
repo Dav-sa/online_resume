@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David Sabri - CV</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            width: 100%;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        main {
+            flex-grow: 1;
+            width: 100%;
+            max-width: 800px;
+            margin: 2rem 0;
+        }
+        .pdf-container {
+            width: 100%;
+            height: 800px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            width: 100%;
+            text-align: center;
+            padding: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>David Sabri - CV</h1>
+    </header>
+    <main>
+        <div class="pdf-container">
+            <iframe src="./cv_david_sabri.pdf" width="100%" height="100%" style="border: none;">
+                This browser does not support PDFs. Please download the PDF to view it: 
+                <a href="./cv_david_sabri.pdf"></a>
+            </iframe>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 David Sabri. All rights reserved.</p>
+    </footer>
+</body>
+</html>
